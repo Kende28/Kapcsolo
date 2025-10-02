@@ -13,7 +13,7 @@ export function Lablec(props: LablecProps) {
         Az oldalt készítette: {props.nev}
         <br />A készítés dátuma: {props.datum.toDateString()} <br />A feladatra
         fordított idő: {props.perc} perc. <br />
-        Az oldalt készítette:{" "}
+        Nyilatkozat MI használatáról. <br />
         {props.mi
           ? "A feladatmegoldásban használtam MI-t"
           : "Nem használtam MI-t a feladatmegoldáshoz."}
